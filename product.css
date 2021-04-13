@@ -1,0 +1,61 @@
+/* 整夜配置 */
+*{
+    font-family:"微軟正黑體",sans-serif;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.leftProduct{flex:1;}
+.rightProduct{flex: 1;}
+.productBuy{flex: 12;}
+
+img{
+    object-fit: cover;
+}
+
+/* 小图排版 */
+.smallImg{ 
+    display: flex;
+    justify-content: center;
+    
+}
+.smallImg img{
+    width: 115px;
+    height: 115px;
+    margin: 15px auto ;
+    padding: 0;
+}
+/* 大图+小图排版 */
+.productImg{
+    
+    display: flex;
+    flex-direction: column;
+}
+.productImg>img{
+    width: 510px;
+    height: 340px;
+    flex: 1;}
+
+/* 上半部图+文字排版 */
+.productBuy{display: flex;}
+.productText{flex: 1;
+font-size: 3vh;
+
+}
+.productImg{flex: 1;}
+
+/* 選單 */
+select{
+   font-size: 2.5vh;
+}
+
+/* 加入購物車button */
+button{
+    font-size: 2.5vh;
+    border: 0;
+    padding:8px ;
+    background-color: #a71d21;
+    color:seashell
+}

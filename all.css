@@ -1,0 +1,103 @@
+img{
+    margin-top: 2rem;
+}
+
+/* 右下角-回到最上面 */
+.goBack img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+/* 第一頁版面 */
+.allPage{
+    
+    width: 100%;
+    display: flex;
+}
+.left{
+    flex: 1;
+}
+
+.main{flex: 10;}
+.right{flex: 1;}
+
+/* 圖與navbar配置 */
+.navOut{
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.navOut img{
+    width: 180px;
+    height: 60px;
+    object-fit: contain;
+    flex:1;
+}
+.navText{
+    flex: 3;
+    text-align: center;
+}
+.navText li{
+    margin: auto 0.5rem;
+}
+
+/* 右上角購物車 */
+.loginAndCar p{display: inline-block;}
+.loginAndCar{ flex: 1;}
+.loginAndCar button{
+    border-radius: 20px;
+    font-size: 2vh;
+    border: 0;
+    padding: 8px;
+    color: seashell;
+    background-color: #446084;
+}
+.loginAndCar img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    text-emphasis: center;
+}
+
+/* body的大圖 */
+.bigImg img{ 
+    width: 70rem;
+    object-fit: cover;
+}
+
+/* navbar 水平 */
+.navText ul li{ display: inline;}
+
+/* 大張card1 */
+.card1{
+    display: flex;
+    
+    /* justify-content: flex-start; */
+    
+}
+.card1 img{
+    width:15rem; 
+    height:30rem; 
+    flex: 1;
+    object-fit:contain;
+    padding: 0;
+    margin:1rem;
+    flex-shrink:1 ;
+}
+.card2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.card2 img{
+    flex: 1;
+    width: 13.5rem;
+    height: 13.5rem;
+
+}

@@ -1,0 +1,23 @@
+.carPage ul li{list-style-type: none;}
+.carPage{display: flex;}
+
+/* 左邊nav排版 */
+.carNav{flex: 1;}
+.carNav li{
+    margin:2.5rem auto;
+}
+.carProduct{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+.carProduct img{
+    flex: 1;
+    width: 13.75rem;
+    height: 13.75rem;
+    object-fit: contain;
+}
+
+.card{
+    margin: 3vh;
+}
